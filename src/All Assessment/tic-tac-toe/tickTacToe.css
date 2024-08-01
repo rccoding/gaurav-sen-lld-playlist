@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    cursor: pointer;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .winner-banner {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+  }
+  .game-lls {
+    margin-top: 20px;
+  }
+  
+  .diagram {
+    margin-bottom: 20px;
+  }
+  
+  .diagram h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .hover-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .winner-banner {
+    text-align: center;
+    background-color: #ffef74;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .winner-banner:hover {
+    cursor: pointer;
+  }
+  
+  .diagram:hover {
+    cursor: pointer;
+  }
+  
